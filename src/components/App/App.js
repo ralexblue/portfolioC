@@ -15,10 +15,8 @@ class App extends Component  {
     <div className="App">
       <Header/>
         <Suspense fallback={<div>Loading...</div>}>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-        </Switch>
+       <Home/>
+       <About/>
       </Suspense>
     </div>
     );
