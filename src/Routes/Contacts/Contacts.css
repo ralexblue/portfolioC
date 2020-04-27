@@ -1,0 +1,14 @@
+.Contacts{
+    display: flex;
+    margin: auto;
+    width:100%;
+    flex-direction: column;
+    height:100vh;
+    background-color:#0B0C10;
+}
+@media screen and (min-width: 480px) {
+    .Contacts{
+        padding-top: 3.2vw;
+        height:95vh;
+    }
+}

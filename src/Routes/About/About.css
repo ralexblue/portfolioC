@@ -1,0 +1,19 @@
+.About{
+    display: flex;
+    margin: auto;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    background-color:#0B0C10;
+}
+.aboutme{
+   background-color:#45A29E;
+}
+hobbies{
+    background-color:#45A29E;
+}
+@media screen and (min-width: 480px) {
+    .About{
+        padding-top: 3.2vw;
+    }
+}

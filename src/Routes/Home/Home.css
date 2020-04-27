@@ -1,0 +1,26 @@
+.secret{
+    text-decoration:none;
+    color:white;
+}
+.title{
+    color:white;
+    font-family: "Gill Sans, sans-serif	";
+    margin: auto;
+}
+.Home{
+    display: flex;
+    margin: auto;
+    width:100%;
+    height:100vh;
+    background-color:#0B0C10;
+}
+.mybutton{
+    background-color: #c5c6c7;
+    border: transparent;
+}
+@media screen and (min-width: 480px) {
+    .Home{
+        padding-top: 3.2vw;
+        height:97.8vh;
+    }
+}
