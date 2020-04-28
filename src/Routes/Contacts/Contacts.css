@@ -6,6 +6,37 @@
     height:100vh;
     background-color:#0B0C10;
 }
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding:3vw;
+    align-items: center;
+    border:1px solid #c5c6c7;
+}
+.con h2{
+    margin-top: 0;
+}
+.con a{
+    margin-left: 25%;
+}
+.con button{
+    width: 50%;
+    margin-bottom: 1vw;
+}
+.imag-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.imag-container img{
+    width: 50%;
+    margin-left: 25%;
+}
+
 @media screen and (min-width: 480px) {
     .Contacts{
         padding-top: 3.2vw;

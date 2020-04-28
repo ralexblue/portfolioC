@@ -5,15 +5,66 @@
     height:100vh;
     flex-direction: column;
     background-color:#0B0C10;
+
 }
-.aboutme{
+.about{
    background-color:#45A29E;
+   margin-left: 3vw;
+   margin-right: 3vw;
+   margin-top: 1vw;
+   margin-bottom: 11vw;
+   height:51%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
-hobbies{
-    background-color:#45A29E;
+.about p,h1{
+    margin: 0;
+    font-size: .89em;
+}
+.hobbies{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1FA29E;
+}
+.hobbies p,h1{
+    margin: 0;
+    font-size:1em;
 }
 @media screen and (min-width: 480px) {
     .About{
         padding-top: 3.2vw;
+    }
+    .about{
+        margin-bottom: 1vw;
+    }
+
+    .about p,h1{
+        margin: 20px;
+        font-size:1em;
+    }
+    .hobbies p,h1{
+        margin: 20px;
+        font-size:1.1em;
+    }
+    .about{
+        height: 45%;
+    }
+    .hobbies{
+        height:40%;
+    }
+}
+@media screen and (min-width: 880px) {
+    .about p,h1{
+        margin: 20px;
+        font-size:1.5em;
+    }
+    .hobbies p,h1{
+        margin: 20px;
+        font-size:1.6em;
     }
 }

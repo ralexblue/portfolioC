@@ -5,14 +5,20 @@
 .title{
     color:white;
     font-family: "Gill Sans, sans-serif	";
+    font-size: 13vw;
     margin: auto;
 }
 .Home{
     display: flex;
-    margin: auto;
     width:100%;
     height:100vh;
-    background-color:#0B0C10;
+    background-color:rgb(163, 164, 165);
+}
+.Home1{
+    display: flex;
+    margin: auto;
+    width:100%;
+    height:97.8vh;
 }
 .mybutton{
     background-color: #c5c6c7;
@@ -22,5 +28,9 @@
     .Home{
         padding-top: 3.2vw;
         height:97.8vh;
+    }
+    .title{
+        font-family: "Gill Sans, sans-serif	";
+        font-size: 5vw;
     }
 }

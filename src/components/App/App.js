@@ -4,12 +4,14 @@ import Header from '../Header/Header'
 import Home from '../../Routes/Home/Home'
 import './App.css';
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {faGamepad} from "@fortawesome/free-solid-svg-icons";
+import {faLinkedin,faGithubAlt} from '@fortawesome/free-brands-svg-icons';
+import {faServer,faTv,faMicrochip,faEnvelope,faScroll} from "@fortawesome/free-solid-svg-icons";
+
 //const Home = lazy(() => import('../../Routes/Home/Home'));
 const About = lazy(() => import('../../Routes/About/About'));
 const Projects = lazy(() => import('../../Routes/Projects/Projects'));
 const Contacts = lazy(() => import('../../Routes/Contacts/Contacts'));
-library.add(faGamepad);
+library.add(faServer,faTv,faMicrochip,faLinkedin,faGithubAlt,faEnvelope,faScroll);
 
 
 class App extends Component  {
