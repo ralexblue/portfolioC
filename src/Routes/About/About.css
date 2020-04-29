@@ -20,7 +20,7 @@
 }
 .about p,h1{
     margin: 0;
-    font-size: .89em;
+    font-size: .73em;
 }
 .hobbies{
     margin-left: 3vw;
@@ -45,7 +45,7 @@
 
     .about p,h1{
         margin: 20px;
-        font-size:1em;
+        font-size:.80em;
     }
     .hobbies p,h1{
         margin: 20px;
@@ -58,13 +58,50 @@
         height:40%;
     }
 }
+@media screen and (min-width: 640px) {
+    .about p,h1{
+        margin: 20px;
+        font-size:.95em;
+    }
+    .hobbies p,h1{
+        margin: 20px;
+        font-size:1.3em;
+    }
+}
+@media screen and (min-width: 730px) {
+    .about p,h1{
+        margin: 20px;
+        font-size:1.05em;
+    }
+  
+}
 @media screen and (min-width: 880px) {
     .about p,h1{
         margin: 20px;
-        font-size:1.5em;
+        font-size:1.12em;
     }
     .hobbies p,h1{
         margin: 20px;
         font-size:1.6em;
+    }
+}
+@media screen and (min-width: 1050px) {
+    .about p,h1{
+        margin: 20px;
+        font-size:1.25em;
+    }
+    .hobbies p,h1{
+        margin: 20px;
+        font-size:1.7em;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .about p,h1{
+        margin: 20px;
+        font-size:1.4em;
+    }
+    .hobbies p,h1{
+        margin: 20px;
+        font-size:1.9em;
     }
 }

@@ -5,4 +5,10 @@ body, html {
 h1,h2,p{
     color: white;
 }
+button{
+    border-radius: 8px;
+    background-color: #C5C6C7;
+    margin-bottom: 10px;
+}
+
 

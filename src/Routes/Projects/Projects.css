@@ -16,10 +16,10 @@
     font-size: 1.25em;
 }
 .pro h1{
-    font-size:2em ;
+    font-size:1.5em ;
 }
 .pro p{
-    font-size:0.78em ;
+    font-size:0.68em ;
 }
 
 
@@ -28,7 +28,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 70%;
+    margin: auto;
 }
 
 .each-fade .image-container {
@@ -41,13 +42,13 @@
 }
 .each-fade .projects .pro button{
     width: 200%;
-    margin-left: -46%;
+    margin-left: -47%;
     height: 8vh;
 }
 .row{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .col{
     display: flex;
@@ -63,29 +64,29 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin: 3vw;
+    margin: 0;
     background: #45A29E; 
 }
 .each-fade .projects p{
   margin: 15;
 }
-
-
 .projectsformat {
-    width: 80%;
+    width: 100%;
     margin: auto; 
 }
 @media screen and (min-width: 480px) {
+    
     .each-fade .image-container img {
         width: 80%;
         margin-left: 10%;
+
     }
 }
 
 @media screen and (min-width: 600px) {
     .each-fade .image-container img {
-        width: 60%;
-        margin-left: 20%;
+        width: 80%;
+        margin-left: 10%;
     }
 }
 
@@ -110,6 +111,7 @@
     
     .each-fade .image-container img {
         width: 100%;
+        margin-left: 6%;
     }
     
     .each-fade .projects{
@@ -128,7 +130,7 @@
     
     .projectsformat {
         width: 100%;
-        margin: auto; 
+        margin-top: 10vh; 
     }
     
 }

@@ -18,8 +18,10 @@ export default class Projects extends Component{
   render(){
     return (
         <section className="Projects"  ref={this.props.Projects}>
-          <h2>Projects</h2> 
+          
+          
           <div class="projectsformat">
+          <h2>Projects</h2> 
           <Fade {...fadeProperties}>
             <div className="each-fade">
             <div className="image-container">
