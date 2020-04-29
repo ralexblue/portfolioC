@@ -3,26 +3,23 @@ import quarantrail from '../../Images/ScreenGame.jpg'
 import renstument from '../../Images/Capture.png'
 import french from '../../Images/french.JPG'
 import './Projects.css'
-import { Fade } from 'react-slideshow-image';
+//import { Fade } from 'react-slideshow-image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const fadeProperties = {
-  infinite: true,
-  indicators: true,
-  autoplay:false,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`fade transition from ${oldIndex} to ${newIndex}`);
-  }
-}
+// const fadeProperties = {
+//   infinite: true,
+//   indicators: true,
+//   autoplay:false,
+//   onChange: (oldIndex, newIndex) => {
+//     console.log(`fade transition from ${oldIndex} to ${newIndex}`);
+//   }
+// }
 export default class Projects extends Component{
   render(){
     return (
         <section className="Projects"  ref={this.props.Projects}>
-          
-          
           <div class="projectsformat">
           <h2>Projects</h2> 
-          <Fade {...fadeProperties}>
             <div className="each-fade">
             <div className="image-container">
               <img src={quarantrail}  alt="blank"/>
@@ -90,7 +87,6 @@ export default class Projects extends Component{
               </div>
             </div>
           </div>
-        </Fade>
         </div>
         </section>
       )
