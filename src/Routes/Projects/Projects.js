@@ -28,9 +28,12 @@ export default class Projects extends Component{
               <div class ="pro">
                 <h1>QuaranTrail</h1>
                 <p>
-                This is a game solely based on using react components and context to follow the player
-                story throughout the game.The game also includes minigames and was inspired by Oregon Trail trying to tell the player
-                how far can they can go in the game.
+                This is a game solely based on using react components and context to follow the
+                player story throughout the game.The game also includes minigames and was inspired
+                by Oregon Trail scoring the player based on how long they can go in the game.It is
+                targeted at people who just want to find a simple distraction that does not require
+                much commitment.
+                <br/>
                 <br/>
                 Tech: React,NodeJS,PostgreSQL
                 </p>
@@ -50,10 +53,11 @@ export default class Projects extends Component{
             <div class ="pro">
                 <h1>Renstrument</h1>
                 <p>
-                It is a Rent an Instrument application, 
-                where you can create a user and post,edit, and delete instruments using that user.
-                Inspired by craiglist and just wanted a simple way for people to post instruments that they don't
-                use very often.
+                It is a Rent an Instrument application, where you can create a user and post, edit, 
+                and delete instruments using that user. Inspired by Craiglist. I just wanted a simple
+                 way for people to post instruments that they don't use very often.It is targeted at parents
+                  that bought instruments for their kids, but the kids were not that interested in it.
+                <br/>
                 <br/>
                 Tech: React,NodeJS,PostgreSQL
                 </p>
@@ -73,9 +77,10 @@ export default class Projects extends Component{
               <div class ="pro">
                   <h1>FrenchMoi</h1>
                   <p>
-                  This a simple application that helps people learn a few french words using the learning method of spaced repetition.
-                  The user can imput a guess and submit to a server to see if that guess was right or wrong.If the answer is correct the app will know 
-                  and push the question more farther from the list.
+                  This is a simple application that helps people learn a few French words using the learning method of spaced repetition. 
+                  The user can input a guess and submit to a server to see if that guess was right or wrong. If the answer is correct the 
+                  app will know And push the question farther from the queue.The audience for the FrenchMoi is for people who want learn a little bit of french.
+                  <br/>
                   <br/>
                   Tech: React,NodeJS,PostgreSQL
                   </p>

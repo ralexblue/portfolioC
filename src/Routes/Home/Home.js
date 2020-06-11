@@ -35,3 +35,4 @@ export default class Home extends Component{
       )
   }
 }
+//<div className="Home1" ref ={this.vantaRef}>
